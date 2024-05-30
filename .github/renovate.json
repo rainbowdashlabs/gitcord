@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "github>rainbowdashlabs/rainbowdashlabs"
+    ],
+  "reviewers": [
+    "dlsf",
+    "RainbowDashLabs",
+    "Taucher2003",
+    "yannicklamprecht"
+  ]
+}

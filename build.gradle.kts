@@ -30,7 +30,7 @@ spotless {
 
 dependencies {
     //discord
-    implementation("de.chojo", "cjda-util", "2.9.6+beta.19") {
+    implementation("de.chojo", "cjda-util", "3.0.0") {
         exclude(group = "club.minnced", module = "opus-java")
     }
 
@@ -45,7 +45,7 @@ dependencies {
     }
 
     // unit testing
-    testImplementation(platform("org.junit:junit-bom:5.10.1"))
+    testImplementation(platform("org.junit:junit-bom:6.1.3"))
     testImplementation("org.junit.jupiter", "junit-jupiter")
 }
 
